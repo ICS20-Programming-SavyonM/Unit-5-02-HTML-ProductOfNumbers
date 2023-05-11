@@ -24,6 +24,6 @@ function calculateProduct() {
 		sum = sum + userNum1				
 	}
 	
-  	// return the string of numbers back to html	
+  	// return the numbers back to html	
   	document.getElementById('display-results').innerHTML = userNum1 + "x" + userNum2 + "=" + sum
 }
